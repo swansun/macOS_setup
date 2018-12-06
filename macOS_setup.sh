@@ -2,10 +2,10 @@
 
 echo "Installing xcode, look for dialog box"
 xcode-select --install
+read -p "Press [Enter] key after Xcode installation completes"
 
 echo "Installing HomeBrew"
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-read -p "Press [Enter] key after Xcode installation completes"
 
 echo "Installing Brew formulae apps"
 brew install r csvkit nmap python dos2unix netcat git gpg ical-buddy tmux wget
