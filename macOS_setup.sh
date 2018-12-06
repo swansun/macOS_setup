@@ -16,5 +16,5 @@ echo "Installing Brew cask apps"
 #brew cask install skype firefox keepassx slack wireshark microsoft-teams google-chrome
 
 echo "Creating directory structure"
-mkdir -p $HOME/src/github/swansun
+mkdir -p $HOME/src/github/swansun/{priv,pub}
 mkdir -p $HOME/var/{bak,bin,etc,opt,scratch}
