@@ -11,7 +11,7 @@ echo "Installing Brew formulae apps"
 brew install r csvkit nmap python dos2unix netcat git gpg ical-buddy tmux wget
 
 echo "Installing Brew cask apps"
-brew cask install skype firefox keepassx slack wireshark google-chrome
+brew cask install skype firefox keepassx slack wireshark google-chrome iterm2
 
 echo "Installing microsoft-teams with Brew cask"
 brew cask install microsoft-teams 
