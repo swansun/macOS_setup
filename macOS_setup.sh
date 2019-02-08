@@ -8,7 +8,7 @@ echo "Installing HomeBrew"
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 echo "Installing Brew formulae apps"
-brew install r csvkit nmap python dos2unix netcat git gpg ical-buddy tmux wget mas lastpass-cli bash-completion vagrant-completion
+brew install r csvkit nmap python dos2unix netcat git gpg ical-buddy tmux wget mas lastpass-cli bash-completion vagrant-completion ansible tree
 
 echo "Installing Brew cask apps"
 brew cask install skype firefox keepassx slack wireshark google-chrome iterm2 virtualbox vagrant xquartz
