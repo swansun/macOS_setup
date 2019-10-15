@@ -16,6 +16,12 @@ brew cask install firefox keepassx slack wireshark google-chrome iterm2 virtualb
 echo "Installing microsoft-teams with Brew cask"
 brew cask install microsoft-teams 
 
+echo "Open the 'App Store' and sign in with Apple account"
+read -p "Press [Enter] key after singing in to App Store"
+
+echo "Installing Microsoft RDP with MAS"
+mas install $( mas search remote | awk '/Microsoft Remote Desktop 10/ {print $1}' )
+
 echo "Creating directory structure"
 mkdir -p $HOME/src/github/swansun/{priv,pub}
 mkdir -p $HOME/var/{bak,bin,etc,opt,scratch}
