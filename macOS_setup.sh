@@ -21,7 +21,3 @@ read -p "Press [Enter] key after singing in to App Store"
 
 echo "Installing Microsoft RDP with MAS"
 mas install $( mas search remote | awk '/Microsoft Remote Desktop 10/ {print $1}' )
-
-echo "Creating directory structure"
-mkdir -p $HOME/src/github/swansun/{priv,pub}
-mkdir -p $HOME/var/{bak,bin,etc,opt,scratch}
